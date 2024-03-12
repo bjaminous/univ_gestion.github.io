@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IClan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+</head>
+<body>
+   
+        
+        <div class="menu2">
+            <div class="menu">
+                <img class="logo" src="iclan_logo_white-5.png" style="max-height: 70px;" alt="">
+                <img src="R.png" alt="" class="menu-button">
+                <img src="max.png" alt="" id="max" class="max" onclick="toggleFullscreen()">
+                
+            </div>
+            
+            <div class="container">
+                <form action="dashboard.html" class="login-form" method="post">
+                  <h2>Sign in</h2>
+                  <input type="text" placeholder="Username">
+                  <input type="password"placeholder="Password">
+                  
+                  <br><button type="submit">log in</button>
+                </form>
+              </div>
+              
+            <div class="element">
+                <nav>
+
+                    <ul>
+                        <li><a href="#" class="highlight-link"><i class="fas fa-home" ></i>Home</a></li>
+                        <li><a href="#" class="highlight-link"><i class="fas fa-bullseye"></i>Prospective Student</a></li>
+                        <li><a href="#" class="highlight-link">Returning Student</a></li>
+                        <li><a href="#" class="highlight-link">GoUni Website</a></li>
+                        <li><a href="#" class="highlight-link"><i class="fas fa-bullseye"></i>HOW TO APPLY</a></li>
+                        <li><a href="#" class="highlight-link">Login</a></li>
+                        <li><a href="#" class="highlight-link">Courses</a></li>
+                        <li><a href="#" class="highlight-link">FAQ</a></li>
+                        <li><a href="#" class="highlight-link">Gallery</a></li>
+                        <li><a href="#" class="highlight-link">Contat Us</a></li>
+
+                    </ul>
+                </nav>
+                <hr>     
+            </div>
+            
+            <script src="script.js"></script>
+              
+        </div>
+        
+        
+   
+</body>
+<script>
+    const menuHamburger = document.querySelector(".menu-button")
+    const navLinks = document.querySelector(".menu2 .element nav")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+</html>
