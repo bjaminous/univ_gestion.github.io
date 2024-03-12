@@ -1,0 +1,679 @@
+html,body{
+    font-family: "Poppins",sans-serif;
+    margin: auto;
+    padding: 0;
+    position: relative;
+    font-weight: 300;
+    height: 100%;
+    overflow: hidden;
+    
+}
+.menu{
+    background-color: rgb(230, 230, 42) ;
+    margin: auto;
+    overflow: auto;
+    box-shadow: 5px 5px 10px #6160604d;
+    
+}
+.max{
+  width: 30px;
+  margin-left: 1762px;
+  top: 0px;
+  cursor: pointer;
+  position: absolute;
+ display: none;
+}
+body:hover .max{
+  display: block;
+}
+.menu .menu-button{
+  display: none;
+  position: absolute;
+  right: 50px;
+  top: 20px;
+  width: 40px;
+}
+.menu2{
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  margin: 0px;
+  overflow: auto;
+  font-size: larger; 
+}
+.menu3{
+    width: 240px;
+    height: 100vh !important; /* Fixe la hauteur à 100% de la hauteur de l'écran */
+    overflow-y: hidden;
+    overflow-x: auto;
+    background-color: #ffffff;
+    position: relative;  
+   
+}
+.menu3 img{
+    width: 240px;
+    opacity: 0.8;
+    top: 1px;
+}
+.menu3-items .items{
+  position: relative;
+  cursor: pointer;
+}
+.menu3-items .items a{
+  color: #131212;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  padding: 5px 30px;
+  line-height: 60px;
+}
+.menu3-items .items i{
+  margin-right: 15px;
+}
+.items a .dropdown{
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  transition: 0.3s ease ;
+} 
+.items .sub-menu3{
+  background: rgb(194, 191, 191);
+  display: none;
+}
+.rotate{
+  transform: rotate(90deg);
+}
+.element{
+    padding-left: 2px;
+    z-index: 100;
+    margin-top: -290px;
+}
+.highlight-link {
+  color: rgb(14, 14, 14);
+}
+
+.highlight-link:hover, .highlight-link:focus, .highlight-link:active {
+  background-color: rgba(230, 230, 13, 0.452);
+  
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+nav li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #131212;
+}
+nav p a{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #131212;
+}
+nav li.active:hover{
+  background-color: rgb(189, 131, 55);
+}
+.container4{
+  width: 1000px;
+  height: 400px;
+  background-color: #ffffff;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin-left: 400px;
+  margin-top: 50px;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.5);
+}
+
+.container3 .head{
+  background-color: #ebd61d;
+  height: 70px;
+  width: 800px;
+}
+.container3 h1{
+  display: flex;
+  margin-left: 10px;
+}
+.container3 hr{
+  border: 0px solid black ;
+  margin-top:90px;
+}
+.container3 {
+  width: 800px;
+  height: 500px;
+  background-color: #ffffff;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  top:-1500px;
+  margin-left: 250px;
+  border: 0px solid #131212;
+  border-radius: 2%;
+
+} 
+.register .menu_btn{
+  display: none;
+}
+.register .menu_btn img{
+
+  position: absolute;
+  width: 30px;
+  cursor: pointer;
+  left: 300px;
+  top: 30px;
+}
+.container2 {
+  width: 1000px;
+  height: 300px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  position: relative;
+  top:-1800px;
+  left: 100px;
+  margin: auto;
+  border: 0px solid #131212;
+  border-radius: 2%;
+
+}
+.container {
+    width:  500px;
+    height: 300px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    margin: auto;
+    border: 0px solid #131212;
+    border-radius: 2%;
+  }
+.login-form {
+  text-align: left;
+  padding-left: 30px;
+}
+.login-form h2 {
+  margin-bottom: 20px;
+}
+  .login-form input {
+    width: 400px;
+    height: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 2%;
+    border: 1px solid black;
+  }
+  
+.login-form button {
+  padding: 10px 20px;
+  width: 420px;    justify-content: center;
+  display: fex;
+  align-items: center;
+  background-color: #ebd61d;
+  color: #fff;
+  border: none;
+  border-radius: 2%;
+  font-size: large;
+}
+/*pour le registration form 2*/
+.register-form2 {
+  margin-top: 40px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.register-form2 p{
+  margin-left: 20%;
+  color: #0e0d0d;
+  font-weight: bold;
+}
+  .register-form2 select {
+    padding: 8px;
+    font-size: 16px;
+    border: none; /* Supprimer toute bordure */
+    border-bottom: 1px solid rgb(148, 146, 146);
+    width: 700px;
+    background-color: transparent;
+    color: #808080;
+    margin-left: 20%;
+    text-decoration: none;
+  }
+  .register-form2 select:hover{
+    background-color: #dad8d896;
+  }
+  .register-form2 option {
+    padding: 8px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #808080;
+}
+.register-form2 option:hover{
+  background-color: #ffffff;
+} 
+.register-form2 button {
+  padding: 10px 20px;
+  width: 110px;    justify-content: center;
+  display: flex;
+  background-color: #ebd61d;
+  color: #fff;
+  border: none;
+  border-radius: 2%;
+  margin-left: 100%;
+  font-size: large;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/*pour le registration form*/
+.register-form {
+  text-align: left;
+  padding-left: 10px;
+}
+.register-form h2 {
+  margin-bottom: 20px;
+  margin-left: 10%;
+}
+.register-form p{
+  margin-left: 20%;
+  color: #808080;
+}
+  .register-form select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 500px;
+    background-color: #f9f9f9;
+    color: #808080;
+    margin-left: 20%;
+  }
+  .register-form option {
+    padding: 8px;
+    font-size: 14px;
+    background-color: #fff;
+    color: #808080;
+}
+.register-form option:hover{
+  background-color: #ffffff;
+} 
+.register-form button {
+  padding: 10px 20px;
+  width: 110px;    justify-content: center;
+  display: fex;
+  align-items: center;
+  background-color: #ebd61d;
+  color: #fff;
+  border: none;
+  border-radius: 2%;
+  margin-left: 10%;
+  font-size: large;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.dash{
+  top: 0;
+ position: relative;
+ background-color: rgba(255, 255, 0, 0.158);
+}
+.register{
+  top: 0;
+ position: relative;
+ height: 100%;
+ background-color: rgba(255, 255, 0, 0.158);
+}
+.register2{
+  top: 0;
+ position: relative;
+ height: 100%;
+ background-color: rgba(255, 255, 0, 0.158);
+}
+.collapse-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.header{
+  width: 100%;
+  height: 70px;
+  background-color: #ebd61d;
+}
+
+.header p{
+  display: flex;
+  position: absolute;
+  margin-left: 800px;
+  font-weight: bold;
+  font-size: large;
+}
+.header .arrow-left{
+  display: flex;
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 15px;
+}
+.header .img{
+  display: flex;
+  justify-content: right;
+  position: absolute;
+  margin-left: 1600px;
+  margin-top: -5px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(199, 199, 52);
+  color: #000000;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+/*le tableau*/
+table {
+  margin-top: 30px;
+  width: 1000px;
+  position: absolute;
+  margin-left: 20px;
+  border-collapse: collapse;
+}
+.thead{
+  background-color: #ebd61d;
+  position: absolute;
+  width: 800px;
+  height: 25px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.thead .h1{
+  position: absolute;
+  margin-left: 650px;
+  margin-top: 5px;
+}
+.thead .h2{
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2; /* Couleur de fond gris */
+}
+
+tr:nth-child(even) {
+  background-color: #f0f0f0; /* Alternance de couleur blanc */
+}
+
+.checkbox-row {
+  background-color: #f2f2f2; /* Couleur de fond gris pour la dernière ligne */
+}
+/*student*/
+.student{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.photo{
+  border: 1px solid rgb(148, 147, 147); 
+  width: 230px; 
+  height: 230px;
+}
+.infos{
+  border: 1px solid rgb(39, 39, 39); 
+  height: 200px;
+  width: 700px;
+  text-align: left;
+  justify-content: space-between;
+  position: absolute;
+  margin-left: 235px;
+  margin-top: -217px;
+  line-height: 0.5;
+}
+.infos p{
+  margin-left: 20px;
+}
+.infos .legende{
+  position: absolute;
+  margin-left: 22px;
+  margin-top: -25px;
+  height: 30px;
+  background-color: #fff;
+
+}
+.infos .reponse{
+  position: absolute;
+  margin-left: 210px;
+  margin-top: -207px;
+}
+.student_infos{
+  position: absolute;
+  margin-left: 570px;
+}
+.course_details{
+  border: 1px solid rgb(44, 44, 44);
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 400px;
+  width: 1250px;
+  height: 350px;
+}
+.course_details .legende{
+  position: absolute;
+  margin-left: 500px;
+  margin-top: -25px;
+  height: 30px;
+  background-color: #fff;
+
+}
+.course_details table {
+  margin-top: 20px;
+  width: 1200px;
+  height: 300px;
+  position: absolute;
+  margin-left: 20px;
+  border-collapse: collapse;
+  font-weight: bold;
+}
+
+.course_details th, .courese_ details td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.course_details th {
+  background-color: #f2f2f2; /* Couleur de fond gris */
+}
+
+.course_details tr:nth-child(even) {
+  background-color: #f0f0f0; /* Alternance de couleur blanc */
+}
+
+.course_details .checkbox-row {
+  background-color: #f2f2f2; /* Couleur de fond gris pour la dernière ligne */
+}
+.sign{
+  position: absolute;
+  margin-top: 640px;
+  margin-left: 400px;
+}
+.sign p{
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  text-align: left;
+}
+.btn_register #register_btn{
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 600px;
+  cursor: pointer;
+}
+.btn_register #register_btn a{
+  text-decoration: none;
+  color: white;
+}
+.btn_register #print_btn{
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 750px;
+  cursor: pointer;
+}
+
+/* Media query pour les écrans plus petits */
+@media all and (max-width: 768px) {
+  .menu {
+    height: auto; /* Ajuster la hauteur en fonction du contenu */
+  }
+  .menu img{
+    margin-left: 20%;
+  }
+  
+  .container {
+    width: 100%; /* Ajuster la largeur pour remplir l'écran */
+    top: 100px; /* Ajuster la position par rapport au haut de la page */
+    
+  }
+
+  .login-form input,
+  .login-form button {
+    width: 70%; /* Ajuster la largeur des champs et des boutons */
+  }
+  
+ 
+}
+@media all and (max-width: 1250px) {
+  .menu{
+    padding: 0;
+  }
+  
+  .menu .menu-button{
+    display: block;
+    z-index: 9999;
+  }
+  
+  .menu2 .element nav{
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(255, 254, 254, 0.308);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100%;
+    transition: all 0.5s ease;
+
+  }
+  .menu2 .element nav.mobile-menu{
+    margin-left: 0;
+  }
+  .menu2 hr{
+    display: none;
+    
+  }
+  .menu2 .element nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu2 .element nav ul li{
+    margin: 10px 0;
+    size: 1.2em;
+  }
+  .menu2 .element nav ul li::after{
+    background-color: #131212;
+  }
+
+}
+
+@media all and (max-width: 300px){
+  .menu img{
+    margin-left: 0%;  
+  }
+}
+
+@media all and (max-width: 1200px){
+  .container2 {
+    width: 600px;
+    left: 100px;
+  
+  }
+  .register-form select {
+    width: 300px;
+    margin-left: 5%;
+    
+  }
+  .register{
+    padding: 0;
+    height: 100%;
+  }
+  .register-form h2 {
+    margin-left: 0;
+  }
+  .register-form p{
+    margin-left: 5%;
+  }
+  .register-form  {
+    margin-left: 0;
+  }
+ 
+}
+@media all and (max-width: 800px){
+  .container2 {
+    left: 0px;
+  
+  }
+  
+  .mvc{
+    margin-left: -100%;
+    transition: all 0.5s ease;
+  }
+  .mvc.mobile-menu2{
+    margin-left: 0;
+    z-index: -1;
+
+  }
+  .register .menu_btn{
+    display: block;
+    
+  }
+    
+}
+@media all and (max-width: 300px){
+  .container2 {
+    margin-top: -100px;
+  
+  }
+  .register .menu_btn img{
+    left: 200px;
+  }
+  .register-form select {
+    width: 200px;
+    
+  }
+    
+}
+@media all and (max-width: 1400px){
+  .container4{
+    left: 0;
+  }
+  .register2{
+    padding: 0;
+  }
+}
